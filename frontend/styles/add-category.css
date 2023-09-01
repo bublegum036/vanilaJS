@@ -1,0 +1,38 @@
+body {
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 1500px;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-title {
+    font-family: 'Roboto Medium',sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #052C65;
+    margin-bottom: 40px;
+}
+
+.form-input .form-control {
+    width: 397px;
+}
+
+.form-action {
+    margin-top: 20px;
+}
+
+.btn.btn-success {
+    margin-right: 10px;
+}

@@ -1,0 +1,107 @@
+body {
+    height: 100%;
+    position: relative;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-title {
+    font-family: 'Roboto Medium',sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #052C65;
+    margin-bottom: 40px;
+}
+
+.btn.btn-success.btn-income {
+    margin-right: 10px;
+}
+
+.period {
+    width: 900px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.period ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.period ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.period ul li .btn {
+    width: 100px;
+}
+
+.content-info {
+    display: flex;
+    max-width: 1043px;
+}
+
+.content-info-line {
+    margin: 44px 65px 0;
+    width: 1px;
+    height: 450px;
+    background: #D9D9D9;
+}
+
+.operations-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Bold',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: #052C65;
+    padding: 15px 163px 16px 15px;
+    border-top: 1px solid #DEE2E6;
+    border-bottom: 1px solid #DEE2E6;
+    width: 1100px;
+
+}
+
+.operations-title span {
+    width: 119px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.operations-item {
+    width: 1100px;
+    padding: 12px 0 14px 15px;
+    border-bottom: 1px solid #DEE2E6;
+    display: flex;
+}
+
+.operations-items .operations-item span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 119px;
+    text-align: center;
+    margin-right: 36px;
+}
+
+.delete {
+    margin-right: 10px;
+}
+
+
+
+
+

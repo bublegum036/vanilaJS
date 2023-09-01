@@ -1,0 +1,26 @@
+<div class="content" id="content">
+    <div class="container d-flex flex-column justify-content-center">
+        <h1 class="content-title" id="content-title">
+            Создание дохода/расхода
+        </h1>
+        <div class="form-input">
+            <select class="form-select" id="finance-type">
+                <option disabled selected value="type">Тип...</option>
+                <option value="income">Доход</option>
+                <option value="expense">Расход</option>
+            </select>
+            <select class="form-select" id="category-type">
+                <option disabled selected>Категория...</option>
+            </select>
+            <input type="number" class="form-control" id="amount" placeholder="Сумма...">
+            <input type="date" class="form-control" id="date" placeholder="Дата..." value="Дата...">
+            <input type="text" class="form-control" id="comment" placeholder="Комментарий...">
+        </div>
+        <div class="form-action">
+            <button class="btn btn-success" id="process-finance">Создать</button>
+            <button class="btn btn-danger" id="cancel-finance">Отмена</button>
+        </div>
+    </div>
+</div>
+
+
